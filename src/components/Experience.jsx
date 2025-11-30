@@ -212,8 +212,8 @@ const Experience = () => {
 
         @media (max-width: 768px) {
           .timeline-line { left: 20px; }
-          .timeline-item { flex-direction: column; padding-left: 40px; padding-bottom: 2rem; }
-          .timeline-item.left, .timeline-item.right { justify-content: flex-start; padding-right: 0; }
+          .timeline-item { flex-direction: column; padding-left: 50px; padding-bottom: 2rem; }
+          .timeline-item.left, .timeline-item.right { justify-content: flex-start; padding-right: 0; padding-left: 50px; }
           .timeline-item.left .cyber-card, .timeline-item.right .cyber-card { width: 100%; margin: 0; }
           .timeline-dot { left: 20px; }
         }

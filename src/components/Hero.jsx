@@ -138,9 +138,22 @@ const Hero = () => {
                 </Spotlight>
             </div>
             <style>{`
-        @media (max-width: 900px) {
-          .spotlight-wrapper > div { grid-template-columns: 1fr !important; }
+        @media (max-width: 968px) {
+          .spotlight-wrapper > div { 
+            grid-template-columns: 1fr !important; 
+            padding: 1.5rem !important;
+            gap: 3rem !important;
+          }
           .spotlight-wrapper > div > div { grid-column: span 1 !important; }
+          .profile-card { order: -1; margin-bottom: 1rem; }
+        }
+        
+        @media (max-width: 480px) {
+            .btn { width: 100%; text-align: center; }
+            div[style*="display: flex; gap: 1.5rem"] {
+                flex-direction: column;
+                gap: 1rem !important;
+            }
         }
       `}</style>
         </section >

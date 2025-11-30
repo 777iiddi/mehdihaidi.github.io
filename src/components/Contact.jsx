@@ -158,6 +158,14 @@ const Contact = () => {
                     border-bottom: 2px solid #00ff00;
                     border-right: 2px solid #00ff00;
                 }
+                @media (max-width: 768px) {
+                    .contact-grid {
+                        grid-template-columns: 1fr;
+                    }
+                    .cyber-card {
+                        padding: 1.5rem;
+                    }
+                }
             `}</style>
         </section>
     );
